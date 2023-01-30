@@ -30,7 +30,13 @@ body {
     text-align: center;
     line-height: 400px;
 }
-
+.debug .function_flex_item {
+    background-color: crimson;
+}
+.debug .funtion_box {
+    height: 200px;
+    background-color: crimson;
+}
 
 
 /*CSS*/
@@ -186,7 +192,7 @@ header a {
 
 .sub_box_cont {
     display: flex;
-    margin: 30px 0;
+    margin: 30px 0 50px 0;
 }
 .sub_box_item_sx {
     width: 60%;
@@ -194,4 +200,38 @@ header a {
 .sub_box_item_dx {
     width: 40%;
     padding: 20px;
+}
+
+.function_flex_cont {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+.function_flex_item {
+    width: calc(100% / 3);
+    padding: 20px;
+    height: 300px;
+}
+
+.function_item_img {
+    height: 150px;
+}
+
+.funtion_box {
+    width: 50%;
+    margin: 60px 0 60px;
+}
+
+.ads_flex_cont {
+    display: flex;
+}
+
+.ads_item {
+    width: calc(100% / 3);
+    height: 300px;
+    background-color: blue;
+}
+.ads_img {
+    display: flex;
 }
