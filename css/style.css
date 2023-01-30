@@ -37,6 +37,9 @@ body {
     height: 200px;
     background-color: crimson;
 }
+.debug .ads_box {
+    height: 200px;
+}
 
 
 /*CSS*/
@@ -223,8 +226,10 @@ header a {
     margin: 60px 0 60px;
 }
 
+
 .ads_flex_cont {
     display: flex;
+    width: 100vw;
 }
 
 .ads_item {
@@ -234,4 +239,32 @@ header a {
 }
 .ads_img {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.ads_mini {
+    width: 50%;
+    height: 50%;
+
+}
+.ads_text {
+    padding: 20px;
+}
+
+.ads_box {
+    display: flex;
+    justify-content: space-between;
+
+}
+.ads_box_item_sx {
+    width: 60%;
+    padding: 20px;
+}
+.ads_box_item_dx {
+    width: 40%;
+    padding: 20px;
+}
+
+.ads_box_ext {
+    background-color: cornflowerblue;
 }
