@@ -46,6 +46,17 @@ body {
 .debug .ft_flex_cont {
     height: 200px;
 }
+.debug .sub_item {
+    background-color: brown;
+}
+.debug .sub_flex_cont_2 {
+    height: 100px;
+    background-color: brown;
+}
+.debug .sub_box_cont {
+    height: 300px;
+    background-color: brown;
+}
 
 
 /*CSS*/
@@ -60,52 +71,48 @@ header {
 }
 
 .hd_item_sx {
-    width: 30%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    padding-left: 10px;
     
 }
 .hd_item_dx {
-    width: 30%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    padding-right: 10px;
 }
 
 
 .logo {
     height: 100%;
-    margin: 0 5px
+    margin: 0 5px;
+    padding: 15px 10px 10px;
 }
 
 .hd_menu li {
     list-style: none;
     display: inline-block;
-    margin: 0 5px;
+    margin: 0 10px;
 }
 
 header a {
     text-decoration: none;
+    color: black;
 }
 
 .button-blue {
     background-color: blue;
-    padding: 4px;
+    padding: 6px 10px;
 }
 .button a {
     color: white;
 }
-.debug .sub_item {
-    background-color: brown;
-}
-.debug .sub_flex_cont_2 {
-    height: 100px;
-    background-color: brown;
-}
-.debug .sub_box_cont {
-    height: 300px;
-    background-color: brown;
+a {
+    text-decoration: none;
 }
 
 /*MAIN*/
@@ -143,11 +150,23 @@ header a {
 }
 .hero_img {
     width: 60%;
-    
+   
+
+}
+.absolute_hero {
+   
+}
+
+.white {
+    color: white;
+}
+.black {
+    color: black;
 }
 
 .hero_text span {
     display: inline-block;
+    color: white;
 }
 .margin-bottom {
     margin-bottom: 20px;
@@ -240,7 +259,7 @@ header a {
 
 .ads_item {
     width: calc(100% / 3);
-    height: 300px;
+    height: calc(100vw / 3);
     background-color: blue;
 }
 .ads_img {
