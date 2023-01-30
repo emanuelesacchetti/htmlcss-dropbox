@@ -40,6 +40,12 @@ body {
 .debug .ads_box {
     height: 200px;
 }
+.debug .faq {
+    background-color: darkgoldenrod;
+}
+.debug .ft_flex_cont {
+    height: 200px;
+}
 
 
 /*CSS*/
@@ -267,4 +273,51 @@ header a {
 
 .ads_box_ext {
     background-color: cornflowerblue;
+}
+
+.faq {
+    margin: 40px auto;
+}
+
+.faq_title {
+    padding: 20px;
+}
+.faq_text {
+    padding: 10px;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: darkgray;
+    height: 500px;
+}
+
+.ft_container {
+    max-width: 1170px;
+    margin: 60px auto;
+    padding: 50px;
+}
+
+.ft_flex_cont {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.ft_item {
+    width: calc(100% / 5);
+    padding: 30px;
+}
+
+.ft_item li {
+    list-style: none;
+    color: white;
+}
+.ft_item a {
+    text-decoration: none;
+    color: white;
+}
+
+.language { 
+    padding: 20px;
 }
