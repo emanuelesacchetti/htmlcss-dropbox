@@ -20,8 +20,20 @@ body {
     border: 1px solid black;
 }
 
+.debug .hero {
+    height: 100%;
+}
+.debug .hero_text, .debug .hero_img {
+    height: 100%;
+}
+.debug .hero_img {
+    text-align: center;
+    line-height: 400px;
+}
+
 /*CSS*/
 
+/*HEADER*/
 header {
     height: 60px;
     width: 100vw;
@@ -67,3 +79,57 @@ header a {
 .button a {
     color: white;
 }
+
+/*MAIN*/
+
+/*hero*/
+
+.jumbotron {
+    width: 100vw;
+    background-color: #14f5d3e7;
+    padding: 20px 0 0;
+}
+
+.hero {
+    max-width: 1170px;
+    margin: auto;
+
+}
+
+.hero_title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hero_flex_cont {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    margin: 20px 0;
+}
+
+.hero_text {
+    width: 40%;
+    position: relative;
+    padding: 20px;
+}
+.hero_img {
+    width: 60%;
+    
+}
+
+.hero_text span {
+    display: inline-block;
+}
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.hero_text .icon {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+
+
+
