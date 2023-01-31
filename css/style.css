@@ -55,6 +55,9 @@ body {
 .border {
     border: 1px solid gray;
 }
+.border-bottom {
+    border-bottom: 1px solid black;
+}
 .button a {
     color: white;
 }
@@ -110,6 +113,9 @@ hr {
 .h-110 {
     height: 110px;
 }
+a {
+    text-decoration: none;
+}
 .bg-green {
     background-color: rgb(126, 225, 126);
 }
@@ -133,6 +139,9 @@ hr {
 }
 .bg-yellow {
     background-color: rgb(230, 230, 6);
+}
+.bg-white {
+    background-color: white;
 }
 
 /*CSS*/
@@ -408,13 +417,14 @@ header a {
     display: none;
 }
 
+
 .ads_box_item_sx {
     width: 60%;
-    padding: 20px;
+    padding: 40px;
 }
 .ads_box_item_dx {
     width: 40%;
-    padding: 20px;
+    padding: 40px;
 }
 
 .ads_box_ext {
@@ -432,6 +442,13 @@ header a {
 }
 .faq_text {
     padding: 10px;
+}
+.difference {
+    width: 70%;
+    padding: 10px;
+}
+.icon-faq {
+    width: 10%;
 }
 
 /*FOOTER*/
