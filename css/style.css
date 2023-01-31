@@ -110,6 +110,30 @@ hr {
 .h-110 {
     height: 110px;
 }
+.bg-green {
+    background-color: rgb(126, 225, 126);
+}
+.bg-azure {
+    background-color: rgb(82, 168, 244);
+}
+.bg-purple {
+    background-color: rgb(75, 7, 75);
+}
+.bg-orange {
+    background-color: rgb(255, 55, 0);
+}
+.bg-red {
+    background-color: rgb(223, 1, 1);
+}
+.bg-blue {
+    background-color: blue;
+}
+.bg-celeste {
+    background-color: rgb(0, 195, 255);
+}
+.bg-yellow {
+    background-color: rgb(230, 230, 6);
+}
 
 /*CSS*/
 
@@ -324,11 +348,12 @@ header a {
 }
 
 .function_box {
-    width: 50%;
+    width: 60%;
     margin: 60px 0 60px;
 }
-.function_box p {
-
+.function_box a {
+    font-size: 12px;
+    margin: 20px 0;
 }
 
 
@@ -342,16 +367,45 @@ header a {
 .ads_item {
     width: calc(100% / 3);
     height: calc(100vw / 3);
-    background-color: blue;
+    background-color: rgb(236, 236, 236)
 }
 
 .ads_mini {
     width: 50%;
     height: 50%;
-
+    position: relative;
+}
+.ads_mini img {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .ads_text {
     padding: 20px;
+}
+.ads_item hr {
+    width: 20%;
+    margin: 30px 0;
+}
+.logo-ads {
+    width: 50%;
+    padding: 10px;
+}
+.logo-ads img{
+    width: 100%;
+}
+#central-item {
+    padding: 3%;
+}
+.overflow {
+    overflow-y: scroll;
+    height: 50%;
+    
+}
+.overflow::-webkit-scrollbar { 
+    display: none;
 }
 
 .ads_box_item_sx {
