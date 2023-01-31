@@ -454,7 +454,8 @@ header a {
 /*FOOTER*/
 
 footer {
-    background-color: darkgray;
+    background-color: black;
+    
     height: 500px;
 }
 
@@ -482,4 +483,10 @@ footer {
 
 .language { 
     padding: 20px;
+    color: white;
+    border-top: 1px gray solid;
+}
+
+.ft-list li a {
+    font-size: 11px;
 }
