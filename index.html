@@ -13,9 +13,9 @@
 <body class="debug">
     
     
-    <header>
-        <div class="hd_item_sx">
-            <div class="logo border">
+    <header class="d-flex flex-between">
+        <nav class="hd_item_sx flex-center d-flex">
+            <div class="logo">
                 <img src="img/logo-small.png" alt="logo dropbox">
             </div>
             <div>
@@ -25,28 +25,28 @@
                     <li><a href="#">Piani e Prezzi</a></li>
                 </ul>
             </div>
-        </div>
+        </nav>
 
-        <div class="hd_item_dx">
+        <nav class="hd_item_dx flex-center d-flex">
             <ul class="hd_menu">
                 <li"><a href="#">Supporto</a></li>
                 <li><a href="#">Contatta l'ufficio vendite</a></li>
                 <li><a href="#">Accedi</a></li>
                 <li class="button-blue"><a  class="white" href="#">Inizia</a></li>
             </ul>
-        </div>
+        </nav>
     </header>
 
 
 
     <main>
-        <div class="jumbotron">
-            <div class="hero">
-                <div class="hero_title border">
+        <section id="jumbotron">
+            <div class="big_container">
+                <div class="hero_title">
                     <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
                 </div>
-                <div class="hero_flex_cont">
-                    <div class="hero_text border">
+                <div class="hero_flex_cont d-flex flex-center">
+                    <div class="hero_text">
                         <p class="margin-bottom">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p> <!--paragrafo--> 
                         <span class="button-blue margin-bottom">
                             <a class="white" href="#">Inizia la prova gratuita</a> 
@@ -56,28 +56,28 @@
                         </div> <!--annulla--> 
                         <div class="icon">freccia</div> <!--icon freccia-->   
                     </div>
-                    <div class="hero_img border">
+                    <div class="hero_img">
                         <div class="absolute_hero">
                             <img src="img/jumbo.png" alt=""> <!--immagine da spostare fuori dal flusso con absolute-->
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="main_container border">
-            <section class="subscription"> <!--scegli il piano abbonamento-->
-                <h3 class="border">ciaoo</h3>
+        <div class="main_container">
+            <section id="subscription"> <!--scegli il piano abbonamento-->
+                <h3 class="border">Trova il piano buniess che fa per te</h3>
                 <span class="pay-way-sx border">
-                    <span class="circle-sx"></span>
-                    <span>ciao</span>
+                    <span class="circle circle-sx"></span>
+                    <span>Fatturazione mensile</span>
                 </span>
                 <span class="pay-way-dx border">
-                    <span class="circle-dx"></span>
-                    <span>ciao</span>
+                    <span class="circle circle-dx"></span>
+                    <span>Fatturazione annuale</span>
                 </span>
 
-                <div class="sub_flex_cont">
+                <div class="sub_flex_cont d-flex flex-between">
                     <div class="sub_item border">
                         <div class="utent-kind border">
                             ciao
@@ -105,7 +105,7 @@
 
                 <div class="border">                              <!--box sotto i tre flex item-->
                     <h4 class="border">ciao</h4>
-                    <div class="sub_flex_cont_2">
+                    <div class="sub_flex_cont_2 d-flex">
                         <div class="sub_item_2_sx border">
                             <div>ciao</div>
                             <div>ciao</div>
@@ -131,9 +131,9 @@
                 </div>
             </section>
 
-            <section class="function">              <!--cosa fare con dropbox-->
+            <section id="function">              <!--cosa fare con dropbox-->
                 <h3>ciao</h3>                       
-                <div class="function_flex_cont border">
+                <div class="function_flex_cont d-flex flex-between border">
                     <div class="function_flex_item border">         <!--primo flex-item function-->
                         <div class="function_item_img border">            
                             <img src="" alt="">image
@@ -154,9 +154,9 @@
                 </div>
             </section>
         </div>    
-        <section >
-            <div class="ads_flex_cont border">
-                <div class="ads_item ads_img border">        <!--quadrato con i 4 loghi-->
+        <section id="partner">
+            <div class="ads_flex_cont d-flex border">
+                <div class="ads_item d-flex wrap border">        <!--quadrato con i 4 loghi-->
                     <div class="ads_mini border"></div>
                     <div class="ads_mini border"></div>
                     <div class="ads_mini border"></div>
@@ -179,7 +179,7 @@
                 </div>
             </div>
             <div class="ads_box_ext">
-                <div class="main_container ads_box border">
+                <div class="main_container d-flex flex-between border">
                     <div class="ads_box_item_sx border">
                         <h3>ciao</h3>
                     </div>
@@ -189,7 +189,7 @@
                 </div>
             </div>
         </section>
-        <section class="faq main_container border">
+        <section class="main_container border" id="faq">
             <h3 class="faq_title border">ciao</h3>
             <div class="faq_text border">ciao</div>
             <div class="faq_text border">ciao</div>
@@ -201,8 +201,8 @@
 
 
     <footer>
-        <div class="ft_container">
-            <div class="ft_flex_cont border">
+        <div class="big_container ft_cont">
+            <div class="ft_flex_cont d-flex border">
                 <div class="ft_item border ">
                     <ul>
                         <li><h5>ciao</h5></li>
