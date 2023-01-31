@@ -28,13 +28,6 @@ body {
     text-align: center;
     line-height: 400px;
 }
-.debug .function_flex_item {
-    background-color: crimson;
-}
-.debug .funtion_box {
-    height: 200px;
-    background-color: crimson;
-}
 .debug .ads_box {
     height: 200px;
 }
@@ -44,10 +37,7 @@ body {
 .debug .ft_flex_cont {
     height: 200px;
 }
-.debug .sub_box_cont {
-    height: 300px;
-    background-color: brown;
-}
+
 /*UTILITY*/
 
 .button-blue {
@@ -55,6 +45,12 @@ body {
     padding: 6px 10px;
     color: white;
     text-align: center;
+}
+.button-white {
+    padding: 6px 10px;
+    color: black;
+    text-align: center;
+    
 }
 .border {
     border: 1px solid gray;
@@ -111,7 +107,9 @@ hr {
 .mar-30-b {
     margin: 0 0 30px;
 }
-
+.h-110 {
+    height: 110px;
+}
 
 /*CSS*/
 
@@ -235,10 +233,6 @@ header a {
     font-size: 11px;
 }
 
-.h-110 {
-    height: 110px;
-}
-
 .pay-text {
     vertical-align: middle;
 }
@@ -289,15 +283,22 @@ header a {
 }
 
 .sub_box_cont {
-    display: flex;
     margin: 30px 0 50px 0;
+    height: 500px;
+    padding: 20px;
 }
 .sub_box_item_sx {
     width: 60%;
 }
 .sub_box_item_dx {
     width: 40%;
-    padding: 20px;
+    padding: 30px;
+}
+.sub_box_item_sx img {
+    height: 100%;
+}
+.sub_box_item_dx span {
+    margin: 60px 0;
 }
 
 /*FUNCTION*/
@@ -307,19 +308,30 @@ header a {
     flex-wrap: wrap;
 }
 .function_flex_item {
-    width: calc(100% / 3);
-    padding: 20px;
-    height: 300px;
+    width: 30%;
+    padding: 30px;
+}
+.function_flex_item p {
+    padding: 20px 0;
+    font-size: 13px;
 }
 
 .function_item_img {
-    height: 150px;
+    height: 200px;
+}
+.function_item_img img {
+    width: 100%;
 }
 
-.funtion_box {
+.function_box {
     width: 50%;
     margin: 60px 0 60px;
 }
+.function_box p {
+
+}
+
+
 
 /*PARTNER*/
 
