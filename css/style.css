@@ -16,9 +16,7 @@ body {
     height: 100%;
     background-color: azure;
 }
-.border {
-    border: 1px solid black;
-}
+
 
 .debug .hero {
     height: 100%;
@@ -46,9 +44,7 @@ body {
 .debug .ft_flex_cont {
     height: 200px;
 }
-.debug .sub_item {
-    background-color: brown;
-}
+
 .debug .sub_flex_cont_2 {
     height: 100px;
     background-color: brown;
@@ -62,11 +58,15 @@ body {
 .button-blue {
     background-color: blue;
     padding: 6px 10px;
+    color: white;
+}
+.border {
+    border: 1px solid gray;
 }
 .button a {
     color: white;
 }
-a {
+.no-text-dec {
     text-decoration: none;
 }
 .big_container {
@@ -91,6 +91,31 @@ a {
 .flex-center {
     align-items: center;
 }
+h3 {
+    font-size: 35px;
+}
+h5 {
+    font-weight: bold;
+}
+.inl-blk {
+    display: inline-block;
+}
+hr {
+    width: 30%;
+    color: gray;
+    margin: 30px 0;
+}
+
+.pad-10 {
+    padding: 10px 0;
+}
+.mar-10 {
+    margin: 10px 0;
+}
+.mar-30-b {
+    margin: 0 0 30px;
+}
+
 
 /*CSS*/
 
@@ -201,18 +226,35 @@ header a {
 }
 /*SUBSCIPTION*/
 
-.pay-way-sx, .pay-way-dx {
+.pay-way {
     display: inline-block;
     margin: 30px 0;
+    line-height: 25px;
 }
 
+.pay-text {
+    vertical-align: middle;
+}
+
+.border-blue {
+    border: 4px blue solid;
+}
+.circle {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 1px;
+}
+
+
 .sub_flex_cont {
-    height: 500px;
     margin-bottom: 30px;
 }
 
 .sub_item {
-    width: calc(100% / 3);
+    width: 30%;
 }
 .sub_item_text {
     padding: 20px;
@@ -220,6 +262,14 @@ header a {
 
 .utent-kind {
     text-align: center;
+    border-bottom: 1px gray solid;
+}
+
+#subscription ul i {
+    color: blue;
+}
+.check-list li {
+    list-style: none;
 }
 
 .sub_item_2_sx {
