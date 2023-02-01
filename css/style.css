@@ -71,6 +71,9 @@ body {
 .flex-center {
     align-items: center;
 }
+.column {
+    flex-direction: column;
+}
 h3 {
     font-size: 35px;
 }
@@ -415,7 +418,6 @@ h1 {
     display: none;
 }
 
-
 .ads_box_item_sx {
     width: 60%;
     padding: 40px;
@@ -423,6 +425,9 @@ h1 {
 .ads_box_item_dx {
     width: 40%;
     padding: 40px;
+}
+.ads_mini img {
+    filter: invert(1);
 }
 
 .ads_box_ext {
@@ -441,12 +446,34 @@ h1 {
 .faq_text {
     padding: 10px;
 }
-.difference {
+.question {
     width: 70%;
-    padding: 10px;
+    padding: 20px;
 }
 .icon-faq {
     width: 10%;
+    justify-content: center;
+}
+.w-100 {
+    width: 100%;
+}
+.up {
+    opacity: 0;
+}
+.answer {
+    display: none;
+    padding-top: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.interactive:hover .answer{
+    display: block;
+}
+.interactive:hover .up {
+    opacity: 1;
+}
+.interactive:hover .down {
+    opacity: 0;
 }
 
 /*FOOTER*/
