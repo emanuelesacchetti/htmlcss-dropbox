@@ -131,6 +131,12 @@ a {
 .bg-white {
     background-color: white;
 }
+.bg-d-grey {
+    background-color: #a79898;
+}
+.bg-grey {
+    background-color: rgb(236, 236, 236)
+}
 
 /*CSS*/
 
@@ -383,7 +389,6 @@ h1 {
 .ads_item {
     width: calc(100% / 3);
     height: calc(100vw / 3);
-    background-color: rgb(236, 236, 236)
 }
 
 .ads_mini {
@@ -391,6 +396,12 @@ h1 {
     height: 50%;
     position: relative;
 }
+
+.ads_mini:hover {
+    filter: opacity(0.8);
+    scale: 0.93;
+}
+
 .ads_mini img {
     width: 50%;
     position: absolute;
